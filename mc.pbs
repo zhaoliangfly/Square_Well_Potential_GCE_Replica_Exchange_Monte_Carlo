@@ -1,0 +1,6 @@
+#!/bin/sh
+#PBS -N mc_2
+#PBS -l nodes=3:ppn=24
+#PBS -q snode
+cd /public/home/users/yzu001/Teams/zhaoliang/P006alpha0006_Mpi_Interval_25
+time mpirun -np 72 a.out 
